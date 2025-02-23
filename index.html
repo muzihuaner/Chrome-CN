@@ -38,38 +38,44 @@
             <p class="text-gray-600 mb-8 text-2xl">
                 快速、免费、安全
             </p>
-            <img src="https://google.cn/chrome/static/images/intl/zh_Hans_CN/dev-components/chrome-gallery-3-2x.webp" alt="">
+            <img src="https://google.cn/chrome/static/images/intl/zh_Hans_CN/dev-components/chrome-gallery-3-2x.webp"
+                alt="">
             <!-- 下载按钮 -->
             <div class="mb-8">
-                <fieldset>
-                    <legend class="mb-4 mt-6 font-bold">官方直链（支持离线安装）</legend>
+                <legend class="mb-4 mt-6 font-bold">官方直链（支持离线安装）</legend>
+
+                <!-- 电脑版 -->
+                <div class="mb-4">
                     <a class="bg-[#4285f4] hover:bg-[#2b6cd4] text-white font-medium py-3 px-6 rounded 
-                    md:py-4 md:px-8 md:text-lg transition-colors"
+            md:py-4 md:px-8 md:text-lg transition-colors"
                         href="https://www.google.cn/intl/zh-CN/chrome/?standalone=1&amp;platform=win64Windows"
-                        target="_black">Windows版本</a>
+                        target="_blank">Windows版本</a>
                     <a class="bg-[#4285f4] hover:bg-[#2b6cd4] text-white font-medium py-3 px-6 rounded 
-                    md:py-4 md:px-8 md:text-lg transition-colors"
+            md:py-4 md:px-8 md:text-lg transition-colors"
                         href="https://www.google.cn/intl/zh-CN/chrome/?standalone=1&amp;platform=linux"
-                        target="_black">Linux版本</a>
-
+                        target="_blank">Linux版本</a>
                     <a class="bg-[#4285f4] hover:bg-[#2b6cd4] text-white font-medium py-3 px-6 rounded 
-                    md:py-4 md:px-8 md:text-lg transition-colors"
+            md:py-4 md:px-8 md:text-lg transition-colors"
                         href="https://www.google.cn/intl/zh-CN/chrome/?standalone=1&amp;platform=mac64"
-                        target="_black">macOS版本</a>
-                    <a class="bg-[#4285f4] hover:bg-[#2b6cd4] text-white font-medium py-3 px-6 rounded 
-                    md:py-4 md:px-8 md:text-lg transition-colors"
-                        href="https://apps.apple.com/us/app/google-chrome/id535886823" target="_black">iOS版本</a>
+                        target="_blank">macOS版本</a>
+                </div>
 
+                <!-- 手机版 -->
+                <div class="mb-4 mt-10">
                     <a class="bg-[#4285f4] hover:bg-[#2b6cd4] text-white font-medium py-3 px-6 rounded 
-                    md:py-4 md:px-8 md:text-lg transition-colors"
+            md:py-4 md:px-8 md:text-lg transition-colors"
+                        href="https://apps.apple.com/us/app/google-chrome/id535886823" target="_blank">iOS版本</a>
+                    <a class="bg-[#4285f4] hover:bg-[#2b6cd4] text-white font-medium py-3 px-6 rounded 
+            md:py-4 md:px-8 md:text-lg transition-colors"
                         href="https://play.google.com/store/apps/details?id=com.android.chrome"
-                        target="_black">Android版本</a>
-
-                </fieldset>
+                        target="_blank">Android版本</a>
+                </div>
             </div>
             <div class="info bg-gray-100 px-8 py-8 rounded-md">
-                <p style="color:red" class="mb-2">由于2010年3月23日凌晨3时零3分，谷歌宣布退出中国。大部分服务在中国均不能使用，其中Chrome浏览器在国内不能登录谷歌账号进行信息云同步。</p>
-                <p>在中国的互联网搜索引擎中，存在大量伪造的谷歌浏览器下载网站。这些假冒链接导致许多用户的个人电脑被安装了各种木马程序和后门软件。究其原因，与国人对 Chrome 浏览器的习惯性称呼密切相关。多数人在搜索时会直接输入“谷歌浏览器”，但实际上，谷歌官方从未使用过这个名称。Chrome 的官方标准名称为 Chrome。</p>
+                <p style="color:red" class="mb-2">
+                    由于2010年3月23日凌晨3时零3分，谷歌宣布退出中国。大部分服务在中国均不能使用，其中Chrome浏览器在国内不能登录谷歌账号进行信息云同步。</p>
+                <p>在中国的互联网搜索引擎中，存在大量伪造的谷歌浏览器下载网站。这些假冒链接导致许多用户的个人电脑被安装了各种木马程序和后门软件。究其原因，与国人对 Chrome
+                    浏览器的习惯性称呼密切相关。多数人在搜索时会直接输入“谷歌浏览器”，但实际上，谷歌官方从未使用过这个名称。Chrome 的官方标准名称为 Chrome。</p>
             </div>
         </div>
         <div class="text-center">
@@ -77,17 +83,53 @@
                 下载 Chromium
             </h1>
             <div class="info bg-gray-100 px-8 py-8 rounded-md">
-            <p>Chromium 是一个开源的浏览器项目，由 Google 主导开发，其 Chromium 提供了快速、安全、稳定的浏览体验，并以其开源特性吸引了全球范围内的开发者社区。</p>
-           <p>谷歌浏览器(Chrome)、Edge、各种国产浏览器就是基于 Chromium 开发的，它在原生代码的基础上添加了自动更新、用户数据同步和内置媒体解码器等功能。</p>
-        </div>
-           <div class="mt-8">
-            <a class="bg-[#4285f4] hover:bg-[#2b6cd4] text-white font-medium py-3 px-6 rounded 
-            md:py-4 md:px-8 md:text-lg transition-colors"
-                href="https://www.chromium.org/getting-involved/download-chromium/"
-                target="_black">下载 Chromium</a>
- 
-          </div>
-          
+                <p>Chromium 是一个开源的浏览器项目，由 Google 主导开发，其 Chromium 提供了快速、安全、稳定的浏览体验，并以其开源特性吸引了全球范围内的开发者社区。</p>
+                <p>谷歌浏览器(Chrome)、Edge、各种国产浏览器就是基于 Chromium 开发的，它在原生代码的基础上添加了自动更新、用户数据同步和内置媒体解码器等功能。</p>
+            </div>
+            <div class="mt-8">
+                <a class="bg-[#4285f4] hover:bg-[#2b6cd4] text-white font-medium py-3 px-6 rounded 
+                md:py-4 md:px-8 md:text-lg transition-colors"
+                    href="https://www.chromium.org/getting-involved/download-chromium/" target="_blank">下载 Chromium</a>
+            </div>
+
+            <!-- 基于 Chromium 内核的浏览器下载 -->
+            <div class="mt-8">
+                <h2 class="text-2xl md:text-3xl text-gray-900 mb-6 font-bold">基于 Chromium 内核的浏览器</h2>
+                <div class="space-y-4">
+                    <!-- Microsoft Edge -->
+                    <a class="bg-[#0078d7] hover:bg-[#005a9e] text-white font-medium py-3 px-6 rounded 
+                    md:py-4 md:px-8 md:text-lg transition-colors block w-full md:w-auto md:inline-block"
+                        href="https://www.microsoft.com/edge" target="_blank">Microsoft Edge</a>
+
+                    <a class="bg-[#0078d7] hover:bg-[#005a9e] text-white font-medium py-3 px-6 rounded 
+                        md:py-4 md:px-8 md:text-lg transition-colors block w-full md:w-auto md:inline-block"
+                        href="https://www.centbrowser.cn/" target="_blank">百分浏览器</a>
+                    <!-- Opera -->
+                    <a class="bg-[#ff1b2d] hover:bg-[#cc0000] text-white font-medium py-3 px-6 rounded 
+                    md:py-4 md:px-8 md:text-lg transition-colors block w-full md:w-auto md:inline-block"
+                        href="https://www.opera.com/download" target="_blank">Opera</a>
+
+                    <!-- Vivaldi -->
+                    <a class="bg-[#ef3939] hover:bg-[#cc0000] text-white font-medium py-3 px-6 rounded 
+                    md:py-4 md:px-8 md:text-lg transition-colors block w-full md:w-auto md:inline-block"
+                        href="https://vivaldi.com/download/" target="_blank">Vivaldi</a>
+
+                    <!-- Brave -->
+                    <a class="bg-[#fb542b] hover:bg-[#e53e1f] text-white font-medium py-3 px-6 rounded 
+                    md:py-4 md:px-8 md:text-lg transition-colors block w-full md:w-auto md:inline-block"
+                        href="https://brave.com/download/" target="_blank">Brave</a>
+                    <a class="bg-[#fb542b] hover:bg-[#e53e1f] text-white font-medium py-3 px-6 rounded 
+                        md:py-4 md:px-8 md:text-lg transition-colors block w-full md:w-auto md:inline-block"
+                        href="https://browser.yandex.com/" target="_blank">Yandex</a>
+                    <a class="bg-[#fb542b] hover:bg-[#e53e1f] text-white font-medium py-3 px-6 rounded 
+                        md:py-4 md:px-8 md:text-lg transition-colors block w-full md:w-auto md:inline-block"
+                        href="https://arc.net/download" target="_blank">Arc</a>
+
+                    <a class="bg-[#fb542b] hover:bg-[#e53e1f] text-white font-medium py-3 px-6 rounded 
+                    md:py-4 md:px-8 md:text-lg transition-colors block w-full md:w-auto md:inline-block"
+                        href="https://browser.360.cn/ee/index.html" target="_blank">360极速浏览器</a>
+                </div>
+            </div>
         </div>
     </main>
 
